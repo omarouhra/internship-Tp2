@@ -1,114 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <!-- Header -->
     <header>
-        <a href="">Logo</a>
-        <nav>
-            <a href="" title ="Accueil">Accueil</a>
-            <a href="" title ="Historique">Historique</a>
-            <a href="" title="Evènements">Evènements</a>
-            <a href="" title="Contact">Contact</a>
-        </nav>
+      <a class="logo" href="">Logo</a>
+      <nav>
+        <a href="" title="Accueil">Accueil</a>
+        <a href="" title="Historique">Historique</a>
+        <a href="" title="Evènements">Evènements</a>
+        <a href="" title="Contact">Contact</a>
+      </nav>
     </header>
-
 
     <!-- Main section -->
     <main>
-
-        <!-- Left Aside -->
-        <aside>
-            <section>
-            <img src="./assets/home.svg" alt=" home">
-            <a href="" title="Fil d’actualité">Fil d’actualité</a>
-            </section>
-            <section>
-            <img src="./assets/svg-3.svg" alt=" Messages">
-            <a href="" title="Messages">Messages</a>
-            </section>
-            <section>
-            <img src="./assets/svg-2.svg" alt=" Evènements">
-            <a href="" title="Evènements">Evènements</a>
-            </section>
-            <section>
-            <img src="./assets/svg-1.png" alt="groupes">
-            <a href="" title="groupes">groupes</a>
-            </section>
-            <section>
-            <img src="./assets/svg-1.png" alt="Amis">
-            <a href="" title="Amis">Amis</a>
-            </section>
-        </aside>
-
-        <!-- Post Section -->
-        <section>
-            <section class="post">
-               <section class="post-header">
-                   <img src="/assets/avatar.png" alt="Avatat">
-                   <section class="post-creator">
-                       <h2>Mon Pseudo</h2>
-                       <small>Il y a 10 minutes</small>
-                   </section>
-               </section>
-               <section class="post-main">
-                   <img src="/assets/picture.jpeg" alt="post-picture">
-                   <p>Oh right. I forgot about the battle. I just told you! You've killed me! You don't know how to do any of those. Hey, you add a one and two zeros to that or we walk! No! Don't jump!
-
-                    I'm sure those windmills will keep them cool. Who am I making this out to? Yes, if you make it look like an electrical fire. When you do things right, people won't be sure you've done anything at all. Whoa a real live robot; or is that some kind of cheesy New Year's costume?
-                    </p>
-               </section>
-               <section class="post-footer">
-                   <section class="post-likes">
-                       <img src="/assets/like.svg" alt="post-likes">
-                       <h3>120 pouces</h3>
-                   </section>
-                   <section class="post-comments">
-                    <img src="/assets/comments.png" alt="post-comments">
-                    <h3>12 Commentaires</h3>
-                   </section>
-               </section>
-            </section>
+      <!-- Left Aside -->
+      <aside class="left-aside">
+        <section class="link-container">
+          <img src="./assets/home.svg" alt=" home" />
+          <a href="" title="Fil d’actualité">Fil d’actualité</a>
         </section>
+        <section class="link-container">
+          <img src="./assets/svg-3.svg" alt=" Messages" />
+          <a href="" title="Messages">Messages</a>
+        </section>
+        <section class="link-container">
+          <img src="./assets/svg-2.svg" alt=" Evènements" />
+          <a href="" title="Evènements">Evènements</a>
+        </section>
+        <section class="link-container">
+          <img src="./assets/svg-1.png" alt="groupes" />
+          <a href="" title="groupes">groupes</a>
+        </section>
+        <section class="link-container">
+          <img src="./assets/svg-1.png" alt="Amis" />
+          <a href="" title="Amis">Amis</a>
+        </section>
+      </aside>
 
-        <!-- Right Aside -->
-        <aside>
-            <section class="post">
-                <section class="post-header">
-                    <img src="/assets/avatar.png" alt="Avatat">
-                    <section class="post-creator">
-                        <h2>Mon Pseudo</h2>
-                        <small>Il y a 10 minutes</small>
-                    </section>
-                </section>
-                <section class="post-main">
-                    <p>Oh right. I forgot about the battle. I just told you! You've killed me! You don't know how to do any of those. Hey, you add a one and two zeros to that or we walk! No! Don't jump!
- 
-                     I'm sure those windmills will keep them cool. Who am I making this out to? Yes, if you make it look like an electrical fire. When you do things right, people won't be sure you've done anything at all. Whoa a real live robot; or is that some kind of cheesy New Year's costume?
-                     </p>
-                </section>
+      <!-- Post Section -->
+      <section>
+          <!-- Post 1 -->
+        <section class="post">
+          <section class="post-header">
+            <img src="/assets/avatar.png" alt="Avatat" />
+            <section class="post-creator">
+              <h2>Mon Pseudo</h2>
+              <small>Il y a 10 minutes</small>
             </section>
-            <section class="suggestion">
-                <hr>
-                <section class="person">
-                    <img src="" alt="">
-                    <section class="person-coords">
-                        <h2>John Doe</h2>
-                        <small>15 amis mutuels</small>
-                        <button>
-                            <img src="/assets/svg-5.png" alt="follow-botton">
-                            Ajouter en amis
-                        </button>
-                    </section>
-                </section>
+          </section>
+          <article class="post-main">
+            <img src="/assets/picture.jpeg" alt="post-picture" />
+            <p>
+              Oh right. I forgot about the battle. I just told you! You've
+              killed me! You don't know how to do any of those. Hey, you add a
+              one and two zeros to that or we walk! No! Don't jump!<br /><br />
+              I'm sure those windmills will keep them cool. Who am I making this
+              out to? Yes, if you make it look like an electrical fire. When you
+              do things right, people won't be sure you've done anything at all.
+              Whoa a real live robot; or is that some kind of cheesy New Year's
+              costume?
+            </p>
+          </article>
+          <section class="post-footer">
+            <section class="footer-content">
+              <img src="/assets/like.svg" alt="post-likes" />
+              <h3>120 pouces</h3>
             </section>
-        </aside>
+            <section class="footer-content">
+              <img src="/assets/comments.png" alt="post-comments" />
+              <h3>12 Commentaires</h3>
+            </section>
+          </section>
+        </section>
+        <!-- Post 2 -->
+        <section class="post">
+          <section class="post-header">
+            <img src="/assets/avatar.png" alt="Avatat" />
+            <section class="post-creator">
+              <h2>Mon Pseudo</h2>
+              <small>Il y a 10 minutes</small>
+            </section>
+          </section>
+          <article class="post-main">
+            <p>
+              Oh right. I forgot about the battle. I just told you! You've
+              killed me! You don't know how to do any of those. Hey, you add a
+              one and two zeros to that or we walk! No! Don't jump!<br /><br />
+              I'm sure those windmills will keep them cool. Who am I making this
+              out to? Yes, if you make it look like an electrical fire. When you
+              do things right, people won't be sure you've done anything at all.
+              Whoa a real live robot; or is that some kind of cheesy New Year's
+              costume?
+            </p>
+          </article>
+          <section class="post-footer">
+            <section class="footer-content">
+              <img src="/assets/like.svg" alt="post-likes" />
+              <h3>120 pouces</h3>
+            </section>
+            <section class="footer-content">
+              <img src="/assets/comments.png" alt="post-comments" />
+              <h3>12 Commentaires</h3>
+            </section>
+          </section>
+        </section>
+        <!-- Post 3 -->
+        <section class="post">
+          <section class="post-header">
+            <img src="/assets/avatar.png" alt="Avatat" />
+            <section class="post-creator">
+              <h2>Mon Pseudo</h2>
+              <small>Il y a 10 minutes</small>
+            </section>
+          </section>
+          <article class="post-main">
+            <img src="/assets/picture.jpeg" alt="post-picture" />
+          </article>
+          </section>
+        </section>
+      </section>
+
+      <!-- Right Aside -->
+      <aside class="right-aside">
+          <!-- post -->
+        <section class="post">
+          <section class="post-header">
+            <img src="/assets/avatar.png" alt="Avatat" />
+            <section class="post-creator">
+              <h2>Mon Pseudo</h2>
+              <small>Il y a 10 minutes</small>
+            </section>
+          </section>
+          <article>
+            <p>
+              Oh right. I forgot about the battle. I just told you! You've
+              killed me! You don't know how to do any of those. Hey, you add a
+              one and two zeros to that or we walk! No! Don't jump!
+            </p>
+          </article>
+        </section>
+        <!-- creators section -->
+        <section>
+          <h4>Suggestion</h4>
+          <hr />
+          <!-- creator 1 -->
+          <section class="creator">
+            <img class="avatar" src="/assets/avatar.png" alt="creator-img" />
+            <section class="creator-coord">
+              <h3>John Doe</h3>
+              <small>15 amis mutuels</small>
+            <a href="" title="follow"> Ajouter en amis</a>
+            </section>
+          </section>
+          <!-- creator 2 -->
+          <section class="creator">
+            <img class="avatar" src="/assets/avatar.png" alt="creator-img" />
+            <section class="creator-coord">
+              <h3>John Doe</h3>
+              <small>15 amis mutuels</small>
+            <a href="" title="follow"> Ajouter en amis</a>
+            </section>
+          </section>
+          <!-- creator 3 -->
+          <section class="creator">
+            <img class="avatar" src="/assets/avatar.png" alt="creator-img" />
+            <section class="creator-coord">
+              <h3>John Doe</h3>
+              <small>15 amis mutuels</small>
+            <a href="" title="follow"> Ajouter en amis</a>
+            </section>
+          </section>
+          <!-- creator 4 -->
+          <section class="creator">
+            <img class="avatar" src="/assets/avatar.png" alt="creator-img" />
+            <section class="creator-coord">
+              <h3>John Doe</h3>
+              <small>15 amis mutuels</small>
+            <a href="" title="follow"> Ajouter en amis</a>
+            </section>
+          </section>
+        </section>
+      </aside>
     </main>
-</body>
+  </body>
 </html>
